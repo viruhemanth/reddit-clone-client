@@ -1,0 +1,31 @@
+Navbar: {
+  Login,Signup
+  username
+}
+
+Home: {
+  Posts: {
+    PostList: {
+      PostListItem: {
+        Icon(up and down)
+        Header
+        Url
+        Body
+        Comments/Details
+      }
+    }
+  }
+  Sidebar: {
+    CreatePost
+    CategoryList: { Category }
+  }
+  Post: {
+    Header
+    Url
+    Icon(up and Down)
+    Body
+    CommentList: {
+      Comment
+    }
+  }
+}
