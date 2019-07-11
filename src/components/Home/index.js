@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom';
 
 import PostListContainer from './PostListContainer';
 import Sidebar from './Sidebar';
+import PostDetail from './PostDetail';
 
 const Main = styled.main`
   display: flex;
@@ -21,6 +22,7 @@ function Home() {
     <HomeContainer>
       <Route exact path="/" component={PostListContainer} />
       <Route exact path="/a/:category" render={() => <PostListContainer />} />
+      <Route exact path="/a/:category/:post" render={() => <PostDetail />} />
       <Route component={Sidebar} />
     </HomeContainer>
   );
