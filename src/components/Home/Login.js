@@ -63,6 +63,7 @@ export const Button = styled.button`
   font-weight: 500;
   letter-spacing: 1px;
   font-size: 12px;
+  font-family: 'IBM Plex Sans';
 `;
 
 function Login() {

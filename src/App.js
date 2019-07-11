@@ -17,9 +17,9 @@ function App() {
         <GlobalStyles />
         <Navbar />
         <Switch>
-          <Route exact path="/" component={Home} />
           <Route path="/login" component={Login} />
           <Route path="/signup" component={Signup} />
+          <Route path="/" component={Home} />
         </Switch>
       </Router>
     </ThemeProvider>

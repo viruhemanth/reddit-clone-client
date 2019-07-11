@@ -19,9 +19,11 @@ const IconContainer = styled.div`
   display: flex;
   flex-direction: column;
   height: 100%;
-  width: 4%;
+  max-height: 100%;
+  width: 5%;
   align-items: center;
   justify-content: space-evenly;
+  /* padding: 2px; */
   border: 0.1px solid rgba(0, 0, 0, 0.1);
   background-color: white;
 `;
